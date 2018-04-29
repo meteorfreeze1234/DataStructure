@@ -1,7 +1,7 @@
-package list;
+package collection;
 
 // 单向链表反转
-public class MyLinkedList {
+public class LinkedList {
     Node headNode;
     Node tailNode;
     public void reverse() {
@@ -50,7 +50,7 @@ public class MyLinkedList {
     }
 
     public static void main(String[] args) {
-        MyLinkedList linkedList = new MyLinkedList();
+        LinkedList linkedList = new LinkedList();
         for (int i=0;i<10;i++) {
             linkedList.add(new Node(i));
         }
